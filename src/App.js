@@ -12,61 +12,67 @@ import ParentContext from "./component/UseContetxt/ParentContext";
 import Card from "./component/ComponentComposition/Card";
 import PropParent from "./component/Props/PropParent";
 import UseState from "./component/USeState/UseState";
+import Test from "./component/Test/Test";
 function App() {
   const appRouter = createBrowserRouter([
+    // {
+    //   path: "/",
+    //   element: <UseMemo />,
+    // },
+    // {
+    //   path: "/usecallback",
+    //   element: <UseCallback />,
+    // },
+    // {
+    //   path: "/Login",
+    //   element: <Login />,
+    // },
+    // {
+    //   path: "/useref",
+    //   element: <UseRef />,
+    // },
+    // {
+    //   path: "/propdrill",
+    //   element: <PropDrill />,
+    // },
+    // {
+    //   path: "/childtoparent",
+    //   element: <ChildToParent />,
+    // },
+    // {
+    //   path: "/hoc",
+    //   element: <HigherOrderComp />,
+    // },
+    // {
+    //   path: "/context",
+    //   element: <Parent />,
+    // },
+    // {
+    //   path: "/usecontext",
+    //   element: <ParentContext />,
+    // },
+    // {
+    //   path: "/componetcomposition",
+    //   element: (
+    //     <Card
+    //       header="This is card Header"
+    //       body="This is card body"
+    //       footer="This is card footer"
+    //     />
+    //   ),
+    // },
+    // {
+    //   path: "/props",
+    //   element: <PropParent />,
+    // },
+    // {
+    //   path: "/usestate",
+    //   element: <UseState />,
+    // },
+
     {
       path: "/",
-      element: <UseMemo />,
-    },
-    {
-      path: "/usecallback",
-      element: <UseCallback />,
-    },
-    {
-      path: "/Login",
-      element: <Login />,
-    },
-    {
-      path: "/useref",
-      element: <UseRef />,
-    },
-    {
-      path: "/propdrill",
-      element: <PropDrill />,
-    },
-    {
-      path: "/childtoparent",
-      element: <ChildToParent />,
-    },
-    {
-      path: "/hoc",
-      element: <HigherOrderComp />,
-    },
-    {
-      path: "/context",
-      element: <Parent />,
-    },
-    {
-      path: "/usecontext",
-      element: <ParentContext />,
-    },
-    {
-      path: "/componetcomposition",
-      element: (
-        <Card
-          header="This is card Header"
-          body="This is card body"
-          footer="This is card footer"
-        />
-      ),
-    },
-    {
-      path: "/props",
-      element: <PropParent />,
-    },
-    {
-      path: "/usestate",
-      element: <UseState />,
+      element: <Test />,
     },
   ]);
 
